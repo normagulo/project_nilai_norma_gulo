@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Navbar (Navigation Bar) dengan Bootstrap</title>
+      <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+      <nav class="navbar navbar-inverse">
+            <div class="container">
+            <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle Nav</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">MieOnline</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                  <li class="active"><a href="home.html">HOME <span class="sr-only">(current)</span></a></li>
+                  <li><a href="product.html">Product </a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  </li>
+                  </ul>
+                  <form class="navbar-form navbar-left">
+                  <div class="form-group">
+                        <input type="text" class="form-control" placeholder="isikan keyword">
+                  </div>
+                  <button type="submit" class="btn btn-default">Cari</button>
+                  </form>
+                  <ul class="nav navbar-nav navbar-right">
+                  <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        <span class="glyphicon glyphicon-user" aria-hidden="true"></span> User <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                        <li><a href="profile.html">Profile</a></li>
+                        <li><a href="#">Logout</a></li>
+                        </ul>
+                  </li>
+                  </ul>
+            </div>
+            </div>
+      </nav>  
+
+      <header>
+            <h1> Tentang Kami</h1>
+      </header>
+      <section>
+            <h2> Visi Kami</h2>
+            <p> Kami berkomitmen untuk menyediakan mie terbaik dengan kualitas dan rasa yang lezat kepada pelanggan kami. Kami ingin menjadi destinasi utama bagi semua pecinta mie diseluruh dunia</p>
+      </section>
+      <section>
+            <h2> Misi Kami </h2>
+            <p> Misi kami adalah mencari dan menyediakan berbagai jenis mie popular hingga mie tradisional yang autentik. Kami ingin memastikan bahwa setiap pelanggan kami mendapatkan pengalaman belanaja yang menyenangkan dan memuaskan di Mie Online</p>
+      </section>
+      <section>
+            <h2> Nilai Kami </h2>
+            <ul>
+                  <li> Kualitas-Kami hanya menyediakan mie berkualitas terbaik untuk pelanggan kami </li>
+                  <li>Pelayanan Pelanggan- Kami berkomitmen untuk memberikan pelayanan yang terbaik</li>
+                  <li> Kenyamanan-Kami merancang situs web kami dengan antar muka yang intuitif dan user frendly untuk kenyamanan belanja pelanggan kami</li>
+                  <li> Kepuasan Pelanggan-kami selalu berusaha menjaga kepuasan pelanggan kami dan memastikan pengalaman belanja di Mie Online adalah pengalaman yang menyenangkan .</li>
+            </ul>
+      </section>
+
+      <footer>
+            <p> terimakasih telah memilih Mie Online sebagai destinasi belanja Mie anda. Kami berharap anda menemukan mie favorit anda di Toko ini dan kami berharap dapat terus melayani anda dengan produk berkualitas dan pelayanan terbaik kami. Selamat Berbelanja!</p>
+      </footer>    
+<script src="bootstrap/js/jQuery.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
